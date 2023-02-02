@@ -6,3 +6,43 @@
     box-sizing: border-box;
     font-family: "Roboto", Arial, Helvetica;
 }
+
+
+/* Remove bullets from list items and underline from the links */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header section containing logo and navbar */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .navbar ul {
+    display: flex;
+    font-size: 18px;
+}
+
+.header .navbar ul li{
+    padding: 0 10px;
+}
+
+.header .navbar ul li a {
+    color: #E5E7EB;
+}
+
