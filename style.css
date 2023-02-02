@@ -180,12 +180,13 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
 }
 
 .sign-up-section .sign-up-container {
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     padding: 50px;
     border-radius: 10px;
     gap: 50px;
@@ -203,4 +204,16 @@ button:hover {
     padding: 10px 30px;
     border: 1px solid #F9FAF8;
     border-radius: 10px;
+}
+
+/* Footer section */
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
 }
