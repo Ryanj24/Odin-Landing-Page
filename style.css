@@ -17,13 +17,17 @@ a {
     text-decoration: none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* Header section containing logo and navbar */
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 20px;
+    padding: 20px 20px;
     background-color: #1F2937;
     color: white;
 }
@@ -46,3 +50,50 @@ a {
     color: #E5E7EB;
 }
 
+/* Hero section */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 50px 0;
+}
+
+.hero-section .text-container {
+    width: 500px;
+    height: 230px;
+    margin-right: 150px;
+}
+
+.hero-section .text-container h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-section .text-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-section .text-container button {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 10px 30px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero-section .placeholder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #667588;
+    color: #E5E7EB;
+    width: 600px;
+    height: 230px;
+}
